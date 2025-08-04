@@ -1,32 +1,37 @@
+/* Set basic body styles */
 body {
-  background-color: #222;
-  margin: 0;
-  font-family: Arial, sans-serif;
+  background-color: #222;         /* Dark background color */
+  margin: 0;                      /* Remove default browser margin */
+  font-family: Arial, sans-serif; /* Clean and readable font */
 }
 
+/* Style the heading at the top of the page */
 h1 {
-  color: white;
-  text-align: center;
-  margin-top: 20px;
+  color: white;             /* White text for visibility on dark background */
+  text-align: center;       /* Center the heading */
+  margin-top: 20px;         /* Space between top of page and heading */
 }
 
+/* Center the slideshow using Flexbox */
 .center-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: calc(100vh - 80px); /* Adjust based on your h1 height */
+  display: flex; 
+  justify-content: center;       /* Center horizontally */
+  align-items: center;           /* Center vertically */
+  height: calc(100vh - 80px);    /* Leave room for the heading */
 }
 
+/* Style the slideshow container */
 .slideshow-container {
-  width: 600px;
-  height: 400px;
-  overflow: hidden;
-  border: 5px solid #fff;
-  box-shadow: 0 0 15px #000;
+  width: 600px;              /* Fixed width */
+  height: 400px;             /* Fixed height */
+  overflow: hidden;          /* Hide any overflow from the image */
+  border: 5px solid #fff;    /* White border around the image */
+  box-shadow: 0 0 15px #000; /* Subtle shadow for depth */
 }
 
+/* Style the slideshow image */
 #slideshow {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  width: 100%;              /* Fill container horizontally */
+  height: 100%;             /* Fill container vertically */
+  object-fit: cover;        /* Keep image aspect ratio and fill without distortion */
 }
