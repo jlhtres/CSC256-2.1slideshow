@@ -1,9 +1,9 @@
 // Array holding the relative file paths to each beach image
 const images = [
-  "Project2.1/beach1.jpg",
-  "Project2.1/beach2.jpg",
-  "Project2.1/beach3.jpg",
-  "Project2.1/beach4.jpg"
+  "beach1.jpg",
+  "beach2.jpg",
+  "beach3.jpg",
+  "beach4.jpg"
 ];
 
 // Index to keep track of the current image in the slideshow
@@ -26,3 +26,4 @@ showNextImage();
 
 // Change the image every 3 seconds (3000 milliseconds)
 setInterval(showNextImage, 3000);
+
